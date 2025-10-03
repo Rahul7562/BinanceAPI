@@ -20,9 +20,9 @@ pandas library
 
 Update your API key and secret inside the script, type a valid Binance symbol (e.g. "BTCUSDT", "ETHUSDT"):
 
-*api_key = 'YOUR_API_KEY'
+*api_key = 'YOUR_API_KEY'*
 
-api_secret = 'YOUR_API_SECRET'*
+*api_secret = 'YOUR_API_SECRET'*
 
 Its to interract with the binance application, to get these keys follow ChatGPT Steps.
 
