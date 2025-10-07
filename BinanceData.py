@@ -2,8 +2,8 @@ from binance.client import Client
 from binance.enums import HistoricalKlinesType
 import pandas as pd
 
-api_key = 'fw7KvkgeYBJz0CMdzjs1Z64coEDuDArzLSHHf2ZOQpPbNThMcVNlAvP9soAlkdQE'
-api_secret = 'syHSZKTbBLzAWsvCqHLsbps6LoaUTFfszFxFelB0YmetM8jpTfOhYa57GO0pkOL5'
+api_key = 'ypur api key'
+api_secret ='You secret key'
 
     
 def get_historical_klines_df(symbol, interval, start_str, end_str=None, futures=True):
@@ -29,4 +29,5 @@ def get_historical_klines_df(symbol, interval, start_str, end_str=None, futures=
 
 def data(input_symbol):
     print(get_historical_klines_df(input_symbol, Client.KLINE_INTERVAL_1HOUR, "3 day ago UTC", futures=True))
+
 
